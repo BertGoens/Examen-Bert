@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:padding="5dp"
+              android:paddingStart="15dp"
+              android:paddingEnd="15dp"
+    android:minHeight="40dp">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/view_record_vak_vak_id"
+        android:layout_weight="0.3"
+        android:text="vak_id"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/view_record_vak_vak_naam"
+        android:layout_weight="0.5"
+        android:text="vak_naam"
+        />
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/view_record_vak_img_delete"
+        android:src="@drawable/delete"
+        android:background="@color/transparant"
+        android:layout_weight="0.3"
+        />
+</LinearLayout>

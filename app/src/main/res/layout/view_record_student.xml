@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:padding="5dp"
+              android:paddingStart="15dp"
+              android:paddingEnd="15dp"
+              android:minHeight="40dp">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:id="@+id/view_record_student_student_id"
+        android:text="student_id"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:id="@+id/view_record_student_student_naam"
+        android:text="student_naam"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:id="@+id/view_record_student_student_voornaam"
+        android:text="student_voornaam"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:id="@+id/view_record_student_klas_id"
+        android:text="klas_id"
+        />
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/view_record_student_img_delete"
+        android:src="@drawable/delete"
+        android:background="@color/transparant"
+        android:layout_weight="0.3"
+        />
+</LinearLayout>
